@@ -8,5 +8,5 @@ export function addNumbers(a: number, b: number) {
 }
 
 export function subtractNumbers(a: number, b: number) {
-    return a - b + 1;
+    return a - b;
 }
