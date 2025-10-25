@@ -49,3 +49,8 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
