@@ -3,7 +3,7 @@ name: Playwright Tests
 on:
   repository_dispatch:
     types:
-      - 'vercel.deployment.success'
+      - 'vercel.deployment.*'
 
 jobs:
   github_event_log:
