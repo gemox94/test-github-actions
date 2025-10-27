@@ -1,6 +1,8 @@
 name: Repository Dispatch Log
 on:
-    repository_dispatch:
+  repository_dispatch:
+    types:
+      - 'vercel.deployment.success'
 jobs:
   dispatch_log:
     runs-on: ubuntu-latest
