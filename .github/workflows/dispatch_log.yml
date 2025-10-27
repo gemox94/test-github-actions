@@ -1,8 +1,8 @@
-name: End-to-end testing
+name: Repository Dispatch Log
 on:
     repository_dispatch:
 jobs:
-  e2e_github_event_log:
+  dispatch_log:
     runs-on: ubuntu-latest
     steps:
     - name: Log the github event
