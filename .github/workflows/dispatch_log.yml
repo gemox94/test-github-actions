@@ -1,0 +1,9 @@
+name: Repository Dispatch Log
+on:
+    repository_dispatch:
+jobs:
+  dispatch_log:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Log the github event
+      run: echo "Event: ${{ toJson(github.event) }}"
